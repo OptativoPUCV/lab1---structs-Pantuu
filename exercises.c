@@ -42,7 +42,7 @@ los números pares del arreglo original.
 */
 int *filterEvenNumbers(int arr[], int size, int *newSize) 
 { 
-  int *newArr; //= (int *)malloc(size * sizeof(int));
+  int *newArr = (int *)malloc(size * sizeof(int));
   int k = 0;
   for (int i = 0 ; i < size ; i++)
     {
@@ -52,7 +52,7 @@ int *filterEvenNumbers(int arr[], int size, int *newSize)
         k++;
       }
     }
-  return *newArr; 
+  return newArr; 
 }
 
 /*
