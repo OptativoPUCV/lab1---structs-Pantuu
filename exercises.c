@@ -57,6 +57,7 @@ int *filterEvenNumbers(int arr[], int size, int *newSize)
     }
 
   *newSize = k;
+  printf("%i", *newSize);
   
   return newArr; 
 }
