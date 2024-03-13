@@ -132,3 +132,8 @@ exercises.c:53:9: error: ‘k’ undeclared (first use in this function)
 exercises.c:53:9: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 1f3156b
+Wed 13 Mar 2024 08:50:49 PM UTC: 
+ exercises.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  0|0
+490b3f0
